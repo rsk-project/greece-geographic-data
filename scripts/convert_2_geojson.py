@@ -7,4 +7,4 @@ def kml2geojson(kml_file):
         for feat in kml_lyr:
             print feat.ExportToJson()
 
-kml2geojson('../kml/villages.kml')
+kml2geojson('periphereies.kml')
