@@ -14,7 +14,7 @@ def similar(a, b):
 sql = 'SELECT * FROM region'
 folder = 'geojson/0-regions/*'
 
-db = MySQLdb.connect("localhost", "root", "vfimqbux", "roma", charset='utf8')
+db = MySQLdb.connect("localhost", "root", "pass", "db", charset='utf8')
 
 cursor = db.cursor()
 
