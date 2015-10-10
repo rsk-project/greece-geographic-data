@@ -29,7 +29,7 @@ var map = L.mapbox.map('map', 'mapbox.streets');
 
 // Internally this uses the toGeoJSON library to decode the KML file
 // into GeoJSON
-var runLayer = L.mapbox.featureLayer().loadURL('1.json')
+var runLayer = L.mapbox.featureLayer().loadURL('county/5.json')
     .on('ready', function() {
         map.fitBounds(runLayer.getBounds());
     })
